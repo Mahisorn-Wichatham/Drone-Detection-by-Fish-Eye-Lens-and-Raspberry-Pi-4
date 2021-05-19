@@ -1,0 +1,8 @@
+item {
+  id:1
+  name:'Drone_Scout'
+}
+item {
+  id:2
+  name:'Drone_SkyHunterX8'
+}
