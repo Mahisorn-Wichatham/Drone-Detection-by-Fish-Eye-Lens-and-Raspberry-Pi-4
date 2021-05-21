@@ -1,7 +1,10 @@
+'''for setup virtual environment'''
 cd tensorflow
 source bin/activate
 export PYTHONPATH=$PYTHONPATH:/home/pi/tensorflow/models/research:/home/pi/tensorflow/models/research/slim
-cd test
+cd Project
+
+'''for test virtual environment'''
 python
 import tensorflow as tf
 print (tf.__version__)
